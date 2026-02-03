@@ -72,25 +72,6 @@ Built using modern frontend and backend technologies with a focus on **security,
 
 ---
 
-## 📂 Project Structure
-
-sport-club-management-system/
-│
-├── sport-club-main/ # Frontend (React)
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│
-├── sports-club/ # Backend (Spring Boot)
-│ ├── src/
-│ ├── pom.xml
-│
-├── .gitignore
-└── README.md
-
-
-
----
 
 ## ⚙️ Setup Instructions
 
