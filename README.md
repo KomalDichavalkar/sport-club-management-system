@@ -1,107 +1,117 @@
-🏆 Sports Club Management System
+# 🏆 Sports Club Management System
+> Full-Stack Web Application | React.js · Spring Boot · JWT · MySQL
 
-Full-Stack Project
-React.js | Spring Boot | JWT | MySQL
+A full-stack web application designed to digitize sports club operations, including **member management, activities, achievements, and nutrition consultation workflows**.  
+Built using modern frontend and backend technologies with a focus on **security, scalability, and clean architecture**.
 
-Designed and developed a full-stack web application to digitize sports club operations, including member management, activities, and nutrition consultation workflows.
-Implemented JWT-based stateless authentication with role-based access control (Admin, Member, Nutritionist) using Spring Security.
-Built RESTful APIs in Spring Boot and integrated them with a React.js frontend using secure API communication.
-Designed and managed relational database schemas in MySQL to ensure data integrity and scalability.
-Followed clean architecture principles with separation of frontend and backend for maintainability and future scalability.
+---
 
+## 🚀 Project Overview
 
-🏗️ System Architecture
-High-level flow:
+- Developed a full-stack web application to manage sports club operations efficiently  
+- Implemented **JWT-based stateless authentication** with **role-based access control**  
+- Built **secure RESTful APIs** using Spring Boot and integrated them with a React.js frontend  
+- Designed **relational database schemas** in MySQL to ensure data integrity and scalability  
+- Followed **clean architecture principles** with clear separation of frontend and backend  
 
-Client (React.js)
-   ↓ Secure API Calls (JWT)
-Spring Boot REST APIs
-   ↓
-MySQL Database
+---
 
-Stateless authentication using JWT
-RESTful APIs for frontend–backend communication
-Layered backend architecture (Controller → Service → Repository)
+## 🏗️ System Architecture
 
+### High-Level Flow
+- **Client (React.js)**
+  - Secure API Calls (JWT)
+- **Spring Boot REST APIs**
+- **MySQL Database**
 
-🔐 Security Model
-JWT-based authentication
-Stateless session handling
-Role-based access control:
-  Admin – system & member management
-  Member – activities & requests
-  Nutritionist / Trainer – consultation handling
-Secure API endpoints with token validation
-
-
-
-🚀 Tech Stack
-Frontend
-  React.js
-  HTML5, CSS3
-  JavaScript (ES6+)
-  Axios
-  React Router
-
-Backend
-  Java
-  Spring Boot
-  Spring Security
-  REST APIs
-
-Database
-  MySQL
   
-Authentication
-JWT (JSON Web Token)
-Role-based access (Admin, Member, Nutritionist, trainer)
 
-📈 Engineering Highlights
-Designed stateless authentication using JWT to improve scalability and reduce server-side session overhead
-Implemented role-based authorization at API level using Spring Security
-Structured backend using layered architecture (Controller, Service, Repository) for clean separation of concerns
-Ensured secure frontend–backend communication using token-based authorization headers
-Designed normalized relational schemas in MySQL to maintain data integrity and scalability
+### Architecture Highlights
+- Stateless authentication using JWT
+- RESTful APIs for frontend–backend communication
+- Layered backend architecture:
+  - Controller
+  - Service
+  - Repository
 
+---
 
-📂 Project Structure
+## 🔐 Security Model
+
+- JWT-based authentication
+- Stateless session handling
+- Role-based access control:
+  - **Admin** – system & member management
+  - **Member** – activities & requests
+  - **Nutritionist / Trainer** – consultation handling
+- Secure API endpoints with token validation using Spring Security
+
+---
+
+## 🚀 Tech Stack
+
+### Frontend
+- React.js
+- HTML5, CSS3
+- JavaScript (ES6+)
+- Axios
+- React Router
+
+### Backend
+- Java
+- Spring Boot
+- Spring Security
+- REST APIs
+
+### Database
+- MySQL
+
+### Authentication
+- JWT (JSON Web Token)
+- Role-based access (Admin, Member, Nutritionist, Trainer)
+
+---
+
+## 📂 Project Structure
+
 sport-club-management-system/
 │
-├── sport-club-main/   # Frontend (React)
-│   ├── src/
-│   ├── public/
-│   ├── package.json
+├── sport-club-main/ # Frontend (React)
+│ ├── src/
+│ ├── public/
+│ ├── package.json
 │
-├── sports-club/       # Backend (Spring Boot)
-│   ├── src/
-│   ├── pom.xml
+├── sports-club/ # Backend (Spring Boot)
+│ ├── src/
+│ ├── pom.xml
 │
 ├── .gitignore
 └── README.md
 
 
 
-⚙️ Setup Instructions
+---
 
-1️⃣ Clone the Repository
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/KomalDichavalkar/sport-club-management-system.git
 cd sport-club-management-system
 
-2️⃣ Frontend Setup (React)
+###2️⃣ Frontend Setup (React)
 cd sport-club-main
 npm install
 npm start
 
-📍 Runs on:
-http://localhost:3000
-
-3️⃣ Backend Setup (Spring Boot)
+###3️⃣ Backend Setup (Spring Boot)
 cd sports-club
 mvn clean install
 mvn spring-boot:run
 
 
-Key Features
+
+##✨Key Features
 Secure user authentication & authorization
 Role-based dashboards
 Member management and activity tracking
@@ -111,7 +121,7 @@ REST API integration between frontend and backend
 Clean separation of concerns for scalability
 
 
-🧪 What This Project Demonstrates
+##🧪 What This Project Demonstrates
 Full-stack system design thinking
 Secure backend development with Spring Boot
 Frontend–backend API integration
