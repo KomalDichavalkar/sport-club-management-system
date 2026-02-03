@@ -73,7 +73,7 @@ Built using modern frontend and backend technologies with a focus on **security,
 ---
 
 
-✨ Key Features
+##✨ Key Features
 - Secure user authentication & authorization
 - Role-based dashboards
 - Member management and activity tracking
@@ -82,8 +82,9 @@ Built using modern frontend and backend technologies with a focus on **security,
 - REST API integration between frontend and backend
 - Clean separation of concerns for scalability
 
+---
 
-🧪 What This Project Demonstrates
+##🧪 What This Project Demonstrates
 - Full-stack system design thinking
 - Secure backend development with Spring Boot
 - Frontend–backend API integration
