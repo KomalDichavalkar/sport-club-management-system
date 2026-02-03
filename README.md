@@ -93,24 +93,23 @@ mvn spring-boot:run
 ---
 
 
-✨Key Features
-Secure user authentication & authorization
-Role-based dashboards
-Member management and activity tracking
-Club achievements management
-Nutrition consultation request workflow
-REST API integration between frontend and backend
-Clean separation of concerns for scalability
+✨ Key Features
+- Secure user authentication & authorization
+- Role-based dashboards
+- Member management and activity tracking
+- Club achievements management
+- Nutrition consultation request workflow
+- REST API integration between frontend and backend
+- Clean separation of concerns for scalability
 
----
 
 🧪 What This Project Demonstrates
-Full-stack system design thinking
-Secure backend development with Spring Boot
-Frontend–backend API integration
-Real-world authentication and authorization patterns
-Production-ready project structuring
-Strong fundamentals in Java, SQL, and web architecture
+- Full-stack system design thinking
+- Secure backend development with Spring Boot
+- Frontend–backend API integration
+- Real-world authentication and authorization patterns
+- Production-ready project structuring
+- Strong fundamentals in Java, SQL, and web architecture
 
 
 
