@@ -73,26 +73,6 @@ Built using modern frontend and backend technologies with a focus on **security,
 ---
 
 
-## ⚙️ Setup Instructions
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/KomalDichavalkar/sport-club-management-system.git
-cd sport-club-management-system
-
-###2️⃣ Frontend Setup (React)
-cd sport-club-main
-npm install
-npm start
-
-###3️⃣ Backend Setup (Spring Boot)
-cd sports-club
-mvn clean install
-mvn spring-boot:run
-
----
-
-
 ✨ Key Features
 - Secure user authentication & authorization
 - Role-based dashboards
@@ -112,13 +92,22 @@ mvn spring-boot:run
 - Strong fundamentals in Java, SQL, and web architecture
 
 
+## ⚙️ Setup Instructions
 
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/KomalDichavalkar/sport-club-management-system.git
+cd sport-club-management-system
 
+###2️⃣ Frontend Setup (React)
+cd sport-club-main
+npm install
+npm start
 
+###3️⃣ Backend Setup (Spring Boot)
+cd sports-club
+mvn clean install
+mvn spring-boot:run
 
-
-
-
-
-
+---
 
