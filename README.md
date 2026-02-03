@@ -90,9 +90,10 @@ cd sports-club
 mvn clean install
 mvn spring-boot:run
 
+---
 
 
-##✨Key Features
+✨Key Features
 Secure user authentication & authorization
 Role-based dashboards
 Member management and activity tracking
@@ -101,8 +102,9 @@ Nutrition consultation request workflow
 REST API integration between frontend and backend
 Clean separation of concerns for scalability
 
+---
 
-##🧪 What This Project Demonstrates
+🧪 What This Project Demonstrates
 Full-stack system design thinking
 Secure backend development with Spring Boot
 Frontend–backend API integration
